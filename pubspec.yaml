@@ -32,6 +32,8 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_neumorphic: ^3.0.3
+  getwidget: ^ 2.0.4
+  device_preview: ^1.1.0
   
   
 
