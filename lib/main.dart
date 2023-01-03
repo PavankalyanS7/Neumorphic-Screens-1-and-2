@@ -1,11 +1,11 @@
 import 'package:flutter_neumorphic/flutter_neumorphic.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:neumorphic/screen3.dart';
 import 'package:neumorphic/screen_1.dart';
 import 'package:neumorphic/screen_2.dart';
 
-
 void main() {
-  runApp(const MyApp());
+  runApp(ProviderScope(child: const MyApp()));
 }
 
 class MyApp extends StatefulWidget {
